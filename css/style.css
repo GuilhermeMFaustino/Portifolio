@@ -10,6 +10,11 @@
     --corPreta: #000000;
     --corBranca: #FFFFFF;
     --corAmarela: #FBCA2D;
+    
+}
+
+body{
+    background-color: var(--corPreta);
 }
 
 button{
@@ -22,9 +27,18 @@ button{
     transition: .5s;
 }
 
+h1.titulo-section{
+    font-size: 4rem;
+    color: var(--corBranca)
+}
+
+h1.titulo-section span{
+    color: var(--corAmarela)
+}
+
 button:hover{
-    background-color: var(--corAmarela);
-    color: var(--corBranca);
+    background-color: var(--corBranca);
+    color: var(--corAmarela);
 }
 
 .container{
@@ -113,4 +127,31 @@ section.hero{
 .hero .txt-hero button{
     width: 200px;
     height: 52px;
+}
+
+/* Sobre Mim */
+
+section.sobre-mim{
+    padding: 80px 0;
+}
+
+.sobre-mim > .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 96px;
+}
+
+.sobre-mim .txt-sobre p{
+    color: var(--corBranca);
+    text-align: justify;
+    line-height: 1.6;
+    margin: 24px 0;
+}
+
+.sobre-mim .btn-redes button{
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    margin-right: 10px;
 }

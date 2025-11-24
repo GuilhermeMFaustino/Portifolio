@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root{
+    --corCinza: #57595D;
+    --corPreta: #000000;
+    --corBranca: #FFFFFF;
+    --corAmarela: #FBCA2D;
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid var(--corAmarela);
+    border-radius: 8px;
+    color: var(--corBranca);
+    cursor: pointer;
+    font-size: 1.1.rem;
+    transition: .5s;
+}
+
+button:hover{
+    background-color: var(--corAmarela);
+    color: var(--corBranca);
+}
+
+.container{
+    max-width: 1380px;
+    padding: 0 4%;
+    margin: 0 auto;
+}
+
+/* cabecalho */
+header{
+    background-color: transparent;
+    /* background-image: linear-gradient(to top, var(--corBranca) 20%, var(--corCinza)); */
+    padding: 16px 0;
+    position: fixed;
+    width: 100%;
+}
+
+header > .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero .img-hero{
+    line-height: 0;
+}
+
+header .logo img{
+    max-width: 200px;
+}
+
+header nav.menu-desktop ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 56px;
+}
+
+header nav.menu-desktop a{
+    color: var(--corBranca);
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: .5s;
+}
+
+header nav.menu-desktop a:hover{
+    color: var(--corAmarela);
+}
+
+header nav.menu-desktop button{
+    width: 144px;
+    height: 48px;
+}
+/* hero */
+
+section.hero{
+    background-image: linear-gradient(to left, var(--corPreta) 70%, var(--corAmarela) 30%);
+    padding-top: 144px;
+}
+
+.hero > .container{
+    display: flex;
+    align-items: center;
+    gap: 220px;
+}
+
+.hero .txt-hero h1{
+    font-size: 3rem;
+    color: var(--corBranca);
+    font-weight: 300;
+}
+
+.hero .txt-hero h1 span{
+    color: var(--corAmarela);
+    display: block;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.hero .txt-hero p{
+    color: var(--corBranca);
+    line-height: 1.6;
+    font-size: 1.2rem;
+    margin: 24px 0;
+}
+
+.hero .txt-hero button{
+    width: 200px;
+    height: 52px;
+}

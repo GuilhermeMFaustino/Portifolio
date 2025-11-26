@@ -172,6 +172,30 @@
                 </article>
             </div>
         </section>
+
+        <section class="contato">
+            <div class="container">
+                <div class="txt-contato">
+                    <h1 class="titulo-section">Entre em <span>Contato</span></h1>
+                    <p><i class="fa-regular fa-envelope"></i>conato@guilhermemendes.com</p>
+                    <p><i class="fa-brands fa-whatsapp"></i>(81) 99547-7407</p>
+                </div>
+
+                <form action="">
+                    <input type="text" name="" id="nome" placeholder="Digite seu nome">
+                    <input type="email" name="" id="email" placeholder="Digite seu e-mail">
+                    <div class="tel-proj">
+                        <input type="tel" name="#" id="tel" placeholder="Seu Whatsapp">
+                        <input type="tel" name="#" id="tel" placeholder="Qual projeto deseja criar?">
+                    </div>
+
+                    <textarea name="" id="menssagem" placeholder="Fale mais sobre sua ideia!"></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 </body>
 

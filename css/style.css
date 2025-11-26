@@ -10,6 +10,8 @@
     --corPreta: #000000;
     --corBranca: #FFFFFF;
     --corAmarela: #FBCA2D;
+    --corAzul: #17043b;
+    --corAzulEscuro: #090117;
     
 }
 
@@ -19,7 +21,7 @@ body{
 
 button{
     background-color: transparent;
-    border: 2px solid var(--corAmarela);
+    border: 3px solid var(--corAmarela);
     border-radius: 8px;
     color: var(--corBranca);
     cursor: pointer;
@@ -155,3 +157,58 @@ section.sobre-mim{
     font-size: 24px;
     margin-right: 10px;
 }
+
+/* habilidades */
+
+section.skills{
+    padding: 80px 0;
+    background-color: var(--corAmarela);
+}
+
+.skills article{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 18px;
+   margin: 24px 0;
+}
+
+.skills .box-skills{
+    background-color: var(--corAzulEscuro);
+     padding: 24px;
+     border-radius: 16px;
+     color: var(--corBranca);
+
+}    
+
+.box-skills .icon-skills{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 16px;
+}
+
+.box-skills .icon-skills img{
+    max-width: 80px;
+}
+
+.icon-skills h2{
+    color: var(--corBranca);
+}
+
+.icon-skills h2 span{
+    color: var(--corAmarela);
+}
+
+.box-skills p{
+    color: var(--corCinza);
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* button */
+.box-skills .icon-skills button{
+    width: 56px;
+    height: 56px;
+    font-size: 32px;
+}
+

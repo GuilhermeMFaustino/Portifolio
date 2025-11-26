@@ -51,15 +51,15 @@
                 <div class="txt-sobre">
                     <h1 class="titulo-section">Sobre <span>Mim</span></h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore animi placeat voluptatum eum! Tempore modi voluptatum 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore animi placeat voluptatum eum! Tempore modi voluptatum
                         provident numquam placeat tenetur necessitatibus explicabo impedit reiciendis ea commodi, perferendis nihil, at velit.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore animi placeat voluptatum eum! Tempore modi voluptatum 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore animi placeat voluptatum eum! Tempore modi voluptatum
                         provident numquam placeat tenetur necessitatibus explicabo impedit reiciendis ea commodi, perferendis nihil, at velit.
                     </p>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis fuga eaque autem officiis odit,
-                         a fugit ullam, qui facilis incidunt quod dolores nobis! Atque at praesentium libero! Voluptatem, officia dolor!
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore animi placeat voluptatum eum! Tempore modi voluptatum 
+                        a fugit ullam, qui facilis incidunt quod dolores nobis! Atque at praesentium libero! Voluptatem, officia dolor!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore animi placeat voluptatum eum! Tempore modi voluptatum
                         provident numquam placeat tenetur necessitatibus explicabo impedit reiciendis ea commodi, perferendis nihil, at velit.
                     </p>
                     <div class="btn-redes">
@@ -71,6 +71,68 @@
                 <div class="img-sobre">
                     <img src="imagens/sobre-mim.webp" alt="imagem sobre mim">
                 </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="container">
+                    <h1 class="titulo-section">Minhas<span>Linguagens</span></h1>
+                    <article>
+                        <div class="box-skills">
+                            <div class="icon-skills">
+                                <button><i class="fa-brands fa-php"></i></button>                                
+                                <h2>PHP<span></span></h2>
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
+                        </div>
+                        <div class="box-skills">
+                            <div class="icon-skills">
+                                <button><i class="fa-brands fa-java"></i></button>                                
+                                <h2>JAVA</h2>
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
+                        </div>
+                        <div class="box-skills">
+                            <div class="icon-skills">
+                                <button><i class="fa-brands fa-html5"></i></button>                                
+                                <h2>HTML 5</h2>
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
+                        </div>
+                        <div class="box-skills">
+                            <div class="icon-skills">
+                                <button><i class="fa-brands fa-css3"></i></button>                                
+                                <h2>CSS</h2>
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
+                        </div>
+                        <div class="box-skills">
+                            <div class="icon-skills">
+                                <button><i class="fa-brands fa-laravel"></i></button>                                
+                                <h2>LARAVEL</h2>
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
+                        </div>
+                        <div class="box-skills">
+                            <div class="icon-skills">
+                                <button><i class="fa-brands fa-js"></i></button>                                
+                                <h2>JAVA SCRIPT</h2>
+                            </div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
+                        </div>
+                        
+                    </article>
+
+                    <div class="btn_contato">
+                        <button>Entre em Contato</button>
+                    </div>
+
             </div>
         </section>
     </main>

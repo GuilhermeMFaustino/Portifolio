@@ -76,63 +76,100 @@
 
         <section class="skills">
             <div class="container">
-                    <h1 class="titulo-section">Minhas<span>Linguagens</span></h1>
-                    <article>
-                        <div class="box-skills">
-                            <div class="icon-skills">
-                                <button><i class="fa-brands fa-php"></i></button>                                
-                                <h2>PHP<span></span></h2>
-                            </div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                            Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
+                <h1 class="titulo-section">Minhas<span>Linguagens</span></h1>
+                <article>
+                    <div class="box-skills">
+                        <div class="icon-skills">
+                            <button><i class="fa-brands fa-php"></i></button>
+                            <h2>PHP<span></span></h2>
                         </div>
-                        <div class="box-skills">
-                            <div class="icon-skills">
-                                <button><i class="fa-brands fa-java"></i></button>                                
-                                <h2>JAVA</h2>
-                            </div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
+                    </div>
+                    <div class="box-skills">
+                        <div class="icon-skills">
+                            <button><i class="fa-brands fa-java"></i></button>
+                            <h2>JAVA</h2>
                         </div>
-                        <div class="box-skills">
-                            <div class="icon-skills">
-                                <button><i class="fa-brands fa-html5"></i></button>                                
-                                <h2>HTML 5</h2>
-                            </div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
+                    </div>
+                    <div class="box-skills">
+                        <div class="icon-skills">
+                            <button><i class="fa-brands fa-html5"></i></button>
+                            <h2>HTML 5</h2>
                         </div>
-                        <div class="box-skills">
-                            <div class="icon-skills">
-                                <button><i class="fa-brands fa-css3"></i></button>                                
-                                <h2>CSS</h2>
-                            </div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
+                    </div>
+                    <div class="box-skills">
+                        <div class="icon-skills">
+                            <button><i class="fa-brands fa-css3"></i></button>
+                            <h2>CSS</h2>
                         </div>
-                        <div class="box-skills">
-                            <div class="icon-skills">
-                                <button><i class="fa-brands fa-laravel"></i></button>                                
-                                <h2>LARAVEL</h2>
-                            </div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
+                    </div>
+                    <div class="box-skills">
+                        <div class="icon-skills">
+                            <button><i class="fa-brands fa-laravel"></i></button>
+                            <h2>LARAVEL</h2>
                         </div>
-                        <div class="box-skills">
-                            <div class="icon-skills">
-                                <button><i class="fa-brands fa-js"></i></button>                                
-                                <h2>JAVA SCRIPT</h2>
-                            </div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
+                    </div>
+                    <div class="box-skills">
+                        <div class="icon-skills">
+                            <button><i class="fa-brands fa-js"></i></button>
+                            <h2>JAVA SCRIPT</h2>
                         </div>
-                        
-                    </article>
-
-                    <div class="btn_contato">
-                        <button>Entre em Contato</button>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Officiis illum eius voluptatum rerum explicabo quis voluptatem.</p>
                     </div>
 
+                </article>
+
+                <div class="btn_contato">
+                    <button>Entre em Contato</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="container">
+                <h1 class="titulo-section">Meu <span>Portfólio</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                <article class="portfolio-container">
+                    <a href="#" target="_blank">
+                        <div class="portfolio_box projeto1">
+                            <div class="info_portfolio">
+                                Portfolio 01
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank">
+                        <div class="portfolio_box projeto2">
+                            <div class="info_portfolio">
+                                Portfolio 02
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank">
+                        <div class="portfolio_box projeto3">
+                            <div class="info_portfolio">
+                                Portfolio 03
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank">
+                        <div class="portfolio_box projeto4">
+                            <div class="info_portfolio">
+                                Portfolio 04
+                            </div>
+                        </div>
+                    </a>
+                </article>
             </div>
         </section>
     </main>

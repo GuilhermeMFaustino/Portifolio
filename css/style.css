@@ -219,5 +219,73 @@ section.skills{
 .skills .btn_contato button{
     width: 200px;
     height: 58px;
-    border: 4px solid var(--corAzulEscuro) !important;
+    border: 4px solid var(--corBranca) !important;
 }
+
+/* portifolio */
+
+section.portfolio{
+    padding: 80px 0;
+}
+
+.portfolio p{
+    color:  var(--corCinza);
+    margin: 22px 0 48px 0;
+}
+
+.portfolio .portfolio-container{
+    display: grid;
+    grid-template: 1fr / repeat(4, 1fr);
+    gap: 24px;
+}
+
+.portfolio-container .portfolio_box{
+    min-width: 200px;
+    height: 400px;
+    border: 2px solid var(--corAmarela);
+    border-radius: 16px;
+
+    background-size: cover;
+    background-position-y: 0%;
+    transition: background-position-y 5s;
+
+    position: relative;
+}
+
+.portfolio-container .portfolio_box .info_portfolio{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #17043b77;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--corBranca);
+    font-size: 18px;
+    font-weight: 600;
+
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.portfolio-container .portfolio_box .info_portfolio:hover{
+    opacity: 1;
+}
+
+.portfolio-container .portfolio_box:hover{
+    background-position-y: 100%;
+}
+
+.portfolio-container .projeto1{
+    background-image: url(../imagens/portfolio/screencapture-localhost-2025-11-26-11_54_04.png);
+}
+
+.portfolio-container .projeto2{
+    background-image: url(../imagens/portfolio/screencapture-localhost-CoffeCoode-2025-11-26-11_49_30.png);
+}
+

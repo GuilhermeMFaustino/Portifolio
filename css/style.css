@@ -212,3 +212,12 @@ section.skills{
     font-size: 32px;
 }
 
+.skills .btn_contato{
+    text-align: center;
+}
+
+.skills .btn_contato button{
+    width: 200px;
+    height: 58px;
+    border: 4px solid var(--corAzulEscuro) !important;
+}

@@ -21,18 +21,17 @@
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">sobre Mim</a></li>
-                    <li><a href="#">Habilidades</a></li>
-                    <li><a href="#">Portfólio</a></li>
-                    <li><a href="#"><button>Contato</button></a></li>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#sobre-mim">sobre Mim</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato"><button>Contato</button></a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
     <main>
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="container">
                 <div class="img-hero">
                     <img src="imagens/hero-img.webp" alt="">
@@ -46,7 +45,7 @@
             </div>
         </section>
 
-        <section class="sobre-mim">
+        <section class="sobre-mim" id="sobre-mim">
             <div class="container">
                 <div class="txt-sobre">
                     <h1 class="titulo-section">Sobre <span>Mim</span></h1>
@@ -74,7 +73,7 @@
             </div>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="container">
                 <h1 class="titulo-section">Minhas<span>Linguagens</span></h1>
                 <article>
@@ -135,7 +134,7 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="container">
                 <h1 class="titulo-section">Meu <span>Portfólio</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -173,7 +172,7 @@
             </div>
         </section>
 
-        <section class="contato">
+        <section class="contato" id="contato">
             <div class="container">
                 <div class="txt-contato">
                     <h1 class="titulo-section">Entre em <span>Contato</span></h1>
@@ -197,6 +196,21 @@
             </div>
         </section>
     </main>
+
+    <footer>
+        <div class="container">
+            <div class="logo-footer">
+                <img src="imagens/logotipo-footer.webp" alt="">
+                <p>Cnpj: 00.000.000/0000-00</p>
+                <p>Todos os Direitos reservados</p>
+            </div>
+            <div class="btn-redes">
+                <a href=""><button><i class="fa-brands fa-instagram"></i></button></a>
+                <a href=""><button><i class="fa-brands fa-linkedin-in"></i></button></a>
+                <a href=""><button><i class="fa-brands fa-github"></i></button></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

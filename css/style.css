@@ -15,6 +15,10 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: var(--corPreta);
 }
@@ -52,10 +56,11 @@ button:hover{
 /* cabecalho */
 header{
     background-color: transparent;
-    /* background-image: linear-gradient(to top, var(--corBranca) 20%, var(--corCinza)); */
+    background-image: linear-gradient(to left, var(--corAmarela) 70%, var(--corAmarela) 30%); 
     padding: 16px 0;
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
 
 header > .container{
@@ -151,7 +156,7 @@ section.sobre-mim{
     margin: 24px 0;
 }
 
-.sobre-mim .btn-redes button{
+.sobre-mim .btn-redes button, footer .btn-redes button{
     width: 56px;
     height: 56px;
     font-size: 24px;
@@ -357,3 +362,20 @@ section.contato{
     border-color: var(--corBranca);   
 }
 
+/*  */
+
+footer{
+    padding: 40px 0;
+}
+
+footer > .container{
+    display: flex;
+    justify-content: space-between;
+    color: var(--corCinza);
+    font-weight: 500;
+}
+
+footer .logo-footer img{
+    max-width: 160px;
+    margin-bottom: 16px;
+}

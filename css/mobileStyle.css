@@ -14,8 +14,14 @@
         display: none;
     }
 
-    /* heho */
 
+    /* menu mobile */
+
+    .btn-menu-mobile {
+        display: block;
+    }
+
+    /* heho */
 
     section.hero {
         background-image: linear-gradient(to top, var(--corPreta) 90%, var(--corAmarela) 10%);

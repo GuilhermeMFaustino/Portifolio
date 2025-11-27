@@ -29,6 +29,19 @@
                     <li><a href="#contato"><button>Contato</button></a></li>
                 </ul>
             </nav>
+            <div class="btn-menu-mobile" id="btn-menu-mobile">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav class="menu-mobile" id="menu-mobile">
+                <i class="fa-solid fa-xmark"></i>
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#sobre-mim">sobre Mim</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
@@ -212,6 +225,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/portfolio.js"></script>
 </body>
 
 </html>
